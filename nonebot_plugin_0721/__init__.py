@@ -87,7 +87,7 @@ def gen_img(now: datetime, title: str, deer: Sequence[int]) -> bytes:
           ret_img.paste(check_img, (x0, y0), check_img)
 
   font = ImageFont.truetype(f"{PLUGIN_PATH}/MiSans_VF.ttf", 40)
-  draw.text((5, 5), f"{now.year}-{now.month:02} 签到", fill="black", font=font)
+  draw.text((5, 5), f"{now.year}-{now.month:02} 0721签到", fill="black", font=font)
   draw.text((5, 50), title, fill="black", font=font)
 
   img_path = f"{PLUGIN_PATH}/{secrets.token_hex()}.png"
