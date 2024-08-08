@@ -1,18 +1,18 @@
 <div align="center">
-  <a href="https://v2.nonebot.dev/store"><img src="./nonebot_plugin_deer_pipe/deerpipe.jpg" width="180" height="180" alt="NoneBotPluginLogo"></a>
+  <a href="https://v2.nonebot.dev/store"><img src="nonebot_plugin_0721/0721.jpg" width="230" height="180" alt="NoneBotPluginLogo"></a>
 </div>
 
 <div align="center">
 
-# nonebot-plugin-deer-pipe
+# nonebot-plugin-0721
 
-_✨ 每月🦌管签到 ✨_
+_❤️ 每月0721签到 ❤️_
 
 <a href="./LICENSE">
-    <img src="https://img.shields.io/github/license/SamuNatsu/nonebot-plugin-deer-pipe.svg" alt="license">
+    <img src="https://img.shields.io/github/license/ShintoKosei/nonebot-plugin-0721.svg" alt="license">
 </a>
-<a href="https://pypi.python.org/pypi/nonebot-plugin-deer-pipe">
-    <img src="https://img.shields.io/pypi/v/nonebot-plugin-deer-pipe.svg" alt="pypi">
+<a href="https://pypi.python.org/pypi/nonebot-plugin-0721">
+    <img src="https://img.shields.io/pypi/v/nonebot-plugin-0721.svg" alt="pypi">
 </a>
 <img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="python">
 
@@ -20,7 +20,7 @@ _✨ 每月🦌管签到 ✨_
 
 ## 📖 介绍
 
-一个🦌管签到小插件
+一个0721签到小插件
 
 ## 💿 安装
 
@@ -28,7 +28,7 @@ _✨ 每月🦌管签到 ✨_
 <summary>使用 nb-cli 安装</summary>
 在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
 
-    nb plugin install nonebot-plugin-deer-pipe
+    nb plugin install nonebot-plugin-0721
 
 </details>
 
@@ -39,27 +39,27 @@ _✨ 每月🦌管签到 ✨_
 <details>
 <summary>pip</summary>
 
-    pip install nonebot-plugin-deer-pipe
+    pip install nonebot-plugin-0721
 </details>
 <details>
 <summary>pdm</summary>
 
-    pdm add nonebot-plugin-deer-pipe
+    pdm add nonebot-plugin-0721
 </details>
 <details>
 <summary>poetry</summary>
 
-    poetry add nonebot-plugin-deer-pipe
+    poetry add nonebot-plugin-0721
 </details>
 <details>
 <summary>conda</summary>
 
-    conda install nonebot-plugin-deer-pipe
+    conda install nonebot-plugin-0721
 </details>
 
 打开 nonebot2 项目根目录下的 `pyproject.toml` 文件, 在 `[tool.nonebot]` 部分追加写入
 
-    plugins = ["nonebot_plugin_deer_pipe"]
+    plugins = ["nonebot_plugin_0721"]
 
 </details>
 
@@ -70,6 +70,6 @@ _✨ 每月🦌管签到 ✨_
 ## 🎉 使用
 ### 指令表
 
-发送一个 `🦌` 即可触发签到
+发送 `0721` 即可触发签到
 
 签到每月自动刷新

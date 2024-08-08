@@ -16,11 +16,11 @@ from nonebot_plugin_userinfo import EventUserInfo, UserInfo
 
 # Plugin meta
 __plugin_meta__: PluginMetadata = PluginMetadata(
-  name="nonebot-plugin-deer-pipe",
-  description="一个🦌管签到插件",
-  usage="发送🦌以进行签到",
+  name="nonebot-plugin-0721",
+  description="一个0721签到插件",
+  usage="发送0721以进行签到",
   type="application",
-  homepage="https://github.com/SamuNatsu/nonebot-plugin-deer-pipe"
+  homepage="https://github.com/ShintoKosei/nonebot-plugin-0721"
 )
 
 # Constants
@@ -66,7 +66,7 @@ def gen_img(now: datetime, title: str, deer: Sequence[int]) -> bytes:
 
   box_w, box_h = 100, 100
 
-  deer_img = Image.open(f"{PLUGIN_PATH}/deerpipe.jpg")
+  deer_img = Image.open(f"{PLUGIN_PATH}/0721.jpg")
   deer_w, deer_h = deer_img.size
   deer_s: float = 100 / max(deer_w, deer_h)
   deer_img = deer_img.resize((int(deer_w * deer_s), int(deer_h * deer_s)))
@@ -100,7 +100,7 @@ def gen_img(now: datetime, title: str, deer: Sequence[int]) -> bytes:
   return ret_raw
 
 # Matchers
-deer_matcher = on_alconna("🦌")
+deer_matcher = on_alconna("0721")
 
 # Handlers
 @deer_matcher.handle()
@@ -116,5 +116,5 @@ async def handle(user_info: UserInfo = EventUserInfo()) -> None:
   img: bytes = gen_img(now, name, deer)
 
   await UniMessage.text(
-      f"{name} 刚刚🦌了" if ok else f"{name} 今天已经🦌过了"
+      f"{name} 刚刚0721了" if ok else f"{name} 你今天已经0721过了"
     ).image(raw=img).send()

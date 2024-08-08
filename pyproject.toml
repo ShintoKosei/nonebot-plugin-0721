@@ -3,12 +3,12 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "nonebot-plugin-deer-pipe"
-version = "0.0.4"
+name = "nonebot-plugin-0721"
+version = "0.0.1"
 authors = [
-  { name="SNRainiar", email="rainiar@foxmail.com" },
+  { name="ShintoKosei", email="shintokosei@qq.com" },
 ]
-description = "A deer-pipe attendance nonebot2 plugin"
+description = "A 0721 attendance nonebot2 plugin"
 readme = "README.md"
 requires-python = ">=3.10"
 classifiers = [
@@ -25,8 +25,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/SamuNatsu/nonebot-plugin-deer-pipe"
-Issues = "https://github.com/SamuNatsu/nonebot-plugin-deer-pipe/issues"
+Homepage = "https://github.com/ShintoKosei/nonebot-plugin-0721"
+Issues = "https://github.com/ShintoKosei/nonebot-plugin-0721/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]

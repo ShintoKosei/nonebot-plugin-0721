@@ -13,3 +13,6 @@ bot.py
 build
 dist
 *.egg-info
+
+#idea
+.idea
